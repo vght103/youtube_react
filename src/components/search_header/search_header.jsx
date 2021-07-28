@@ -35,7 +35,7 @@ const SearchHeader = ({ onSearch }) => {
         onKeyPress={onKeyPress}
       />
       <button type="submit" className={styles.search_btn} onClick={onClick}>
-        <i class="fas fa-search"></i>
+        <i className="fas fa-search"></i>
       </button>
     </header>
   );
